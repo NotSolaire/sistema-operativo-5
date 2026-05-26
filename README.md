@@ -56,7 +56,7 @@ chmod -R 700 ~/servidor_archivos
 echo "Datos aleatorios del archivo 1" > ~/servidor_archivos/entrada/archivo1.txt
 echo "Datos aleatorios del archivo 2" > ~/servidor_archivos/entrada/archivo2.txt
 echo "Datos aleatorios del archivo 3" > ~/servidor_archivos/entrada/archivo3.txt
-# ver la ip del servidor
-abrir el cmd  escribir ipconfing y buscar los datos en 
-Adaptador de LAN inalámbrica Wi-Fi 2:
+# Ver la ip del servidor
+Abrir el cmd yescribir ipconfing para buscar los datos en 
+Ej:Adaptador de LAN inalámbrica Wi-Fi 2:
    Dirección IPv4. . . . . . . . . . . . . . IP: 12.345.67.8 
