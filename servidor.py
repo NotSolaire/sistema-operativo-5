@@ -7,7 +7,12 @@ import shutil
 BASE_DIR = os.path.expanduser("~/servidor_archivos")
 ENTRADA_DIR = os.path.join(BASE_DIR, "entrada")
 PROCESADOS_DIR = os.path.join(BASE_DIR, "procesados")
+LOGS_DIR = os.path.join(BASE_DIR, "logs")
 LOG_FILE = os.path.join(BASE_DIR, "logs", "registro.log")
+
+os.makedirs(ENTRADA_DIR, exist_ok=True)
+os.makedirs(PROCESADOS_DIR, exist_ok=True)
+os.makedirs(LOGS_DIR, exist_ok=True)
 
 # Locks para evitar condiciones de carrera
 log_lock = threading.Lock()
