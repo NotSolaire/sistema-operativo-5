@@ -1,3 +1,5 @@
+Benjamin Molina Delgado
+
 # Sistema Multipropósito: Terminal, Hilos y Sincronización
 
 Este proyecto consiste en un Sistema Cliente-Servidor de Gestión de Archivos Remotos desarrollado en Python. La aplicación integra conceptos de administración de entornos Linux, redes mediante Sockets TCP, programación concurrente con Multithreading y mecanismos de sincronización para evitar condiciones de carrera.
@@ -43,7 +45,7 @@ Siga estos pasos estrictamente en su terminal de Linux para replicar el entorno 
 
 Ejecute los siguientes comandos en la terminal para inicializar las carpetas y restringir los accesos directos:
 
-```bash
+
 # Crear la estructura de carpetas requerida
 mkdir -p ~/servidor_archivos/entrada ~/servidor_archivos/procesados ~/servidor_archivos/logs
 
@@ -54,3 +56,7 @@ chmod -R 700 ~/servidor_archivos
 echo "Datos aleatorios del archivo 1" > ~/servidor_archivos/entrada/archivo1.txt
 echo "Datos aleatorios del archivo 2" > ~/servidor_archivos/entrada/archivo2.txt
 echo "Datos aleatorios del archivo 3" > ~/servidor_archivos/entrada/archivo3.txt
+# ver la ip del servidor
+abrir el cmd  escribir ipconfing y buscar los datos en 
+Adaptador de LAN inalámbrica Wi-Fi 2:
+   Dirección IPv4. . . . . . . . . . . . . . IP: 12.345.67.8 
